@@ -1,10 +1,6 @@
 ## The two services are running and registered.
-First of all, fire up the services using:
-* `./gradlew :registration:bootrun`
-* `./gradlew :web:bootrun`
-* `./gradlew :accounts:bootrun`
-
 Prove they´re running...
+Fire up web service using `./gradlew :web:bootrun` and account service using: `./gradlew :accounts:bootrun`
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/tarea1.png)
 
 
@@ -18,12 +14,13 @@ Ensure that both of them are accesible from browser:
 
 ## The service registration service has the two services registered.
 Prove it´s running...
+Fire it up using `./gradlew :registration:bootrun`
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/t2.png)
 
 See if the above two services are registered...
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/tarea2.1.png)
 
-## A second account service is running in the port 4444 and it is registered
+## A second account service is running in the port 4444 and it is registered.
 Change port configuration in account´s application.yaml file to 4444:
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/port.png)
 
@@ -35,5 +32,7 @@ Ensure it is accessible from the browser...
 
 Prove this newly created service is registered...
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/twoServices.png)
+
+## What happens when you kill the service with port 2222? Can the web service provide information about the accounts? Why?
 
 
