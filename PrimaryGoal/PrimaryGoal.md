@@ -1,6 +1,6 @@
 ## The two services are running and registered.
 Prove they´re running...
-Fire up web service using `./gradlew :web:bootrun` and account service using: `./gradlew :accounts:bootrun`
+<br/> Fire up web service using `./gradlew :web:bootrun` and account service using: `./gradlew :accounts:bootrun`
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/tarea1.png)
 
 
@@ -14,7 +14,7 @@ Ensure that both of them are accesible from browser:
 
 ## The service registration service has the two services registered.
 Prove it´s running...
-Fire it up using `./gradlew :registration:bootrun`
+<br/> Fire it up using `./gradlew :registration:bootrun`
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/t2.png)
 
 See if the above two services are registered...
