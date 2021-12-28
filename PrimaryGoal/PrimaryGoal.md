@@ -34,9 +34,9 @@
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/twoServices.png)
 
 ## What happens when you kill the service with port 2222? Can the web service provide information about the accounts? Why?
-* Fetch account after killing account service running on port 2222...
+* Try to fetch account after killing the account service running on port 2222...
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/fetchaccDspsKill.png)
 
-**It is not available just after killing the process. Error with code 500 is shown. Nevertheless, we just need to wait a few seconds after the service registration realizes and redirects to the other...**
+**The service is not available just after killing the process. Error with code 500 is shown. Nevertheless, we just need to wait a few seconds after the service registration realizes...**
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/fetchEsperandoTiempo.png)
 
