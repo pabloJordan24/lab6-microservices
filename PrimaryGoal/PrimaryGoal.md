@@ -37,5 +37,6 @@
 * Fetch account after killing account service running on port 2222...
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/fetchaccDspsKill.png)
 
-*It is not available just after killing the process. Error with code 500 is shown. Nevertheless, we just need to wait a few seconds after the service registration sees that and redirects to the other
+**It is not available just after killing the process. Error with code 500 is shown. Nevertheless, we just need to wait a few seconds after the service registration realizes and redirects to the other...**
+<br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/fetchEsperandoTiempo.png)
 
