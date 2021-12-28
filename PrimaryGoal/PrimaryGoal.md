@@ -23,6 +23,17 @@ Prove it´s running...
 See if the above two services are registered...
 <br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/tarea2.1.png)
 
+## A second account service is running in the port 4444 and it is registered
+Change port configuration in account´s application.yaml file to 4444:
+<br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/port.png)
 
+Launch the second account service...
+<br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/launch.png)
+
+Ensure it is accessible from the browser...
+<br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/browser4444.png)
+
+Prove this newly created service is registered...
+<br/> <br/> ![alt text](https://github.com/pabloJordan24/lab6-microservices/blob/test/PrimaryGoal/twoServices.png)
 
 
